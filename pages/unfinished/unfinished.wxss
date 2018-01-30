@@ -1,0 +1,97 @@
+/* pages/unfinished/unfinished.wxss */
+page{
+  
+  background-color: 	#F5F5F5;
+  
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.left{
+   display: flex;
+  flex-direction: row;
+}
+
+.left image{
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 35px;
+  width: 35px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20rpx 10px 20rpx;
+  padding: 0;
+  
+}
+
+.section{
+  margin: 10rpx 0 20rpx 0rpx;
+  background-color:white;
+}
+
+text{
+  height: 30px;
+  line-height: 30px;
+}
+
+.detail{
+   margin-right: 10rpx;
+   margin-top: 10rpx;
+   width: 200rpx;
+}
+
+button{
+  height: 30px;
+  line-height: 30px;
+  background-color: 	#1E90FF;
+  color: white;
+}
+.section-title{
+  display: flex;
+  flex-direction: row;
+}
+
+.section-title text{
+  height: 35px;
+}
+
+.section input{
+  height: 30px;
+  background-color: white;
+  margin-left: 40rpx;
+}
+
+.section-title{
+  line-height: 40px
+}
+
+
+.section textarea{
+  
+  background-color: white;
+  margin-left: 16px;
+}
+
+form{
+  width:100%;
+}
+
+.icon{
+  margin-left: 10rpx;
+  margin-right: 40rpx;
+  height: 30px;
+  width: 30px;
+}
+.textStyle{
+  width: 250rpx;
+}

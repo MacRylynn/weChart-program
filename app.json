@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/finisheddetails/finisheddetails",
+    "pages/unfinisheddetails/unfinisheddetails",
+    "pages/unfinished/unfinished",
+    "pages/logs/logs",
+    "pages/aftersales/aftersales",
+    "pages/application/application",
+   
+    
+    "pages/finished/finished"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "Moemil",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/aftersales/aftersales",
+        "text": "主页",
+        "iconPath": "images/tabBar/维修主页.png",
+        "selectedIconPath": "images/tabBar/维修主页选中.png"
+      },
+      {
+        "pagePath": "pages/unfinished/unfinished",
+        "text": "未完成工单",
+        "iconPath": "images/tabBar/未完成工单.png",
+        "selectedIconPath": "images/tabBar/未完成工单选中.png"
+      },
+      {
+        "pagePath": "pages/finished/finished",
+        "text": "已完成工单",
+        "iconPath": "images/tabBar/已完成工单.png",
+        "selectedIconPath": "images/tabBar/已完成工单选中.png"
+      },
+      {
+        "pagePath": "pages/application/application",
+        "text": "申请维修",
+        "iconPath": "images/tabBar/申请维修.png",
+        "selectedIconPath": "images/tabBar/申请维修选中.png"
+      }
+    ]
+  }
+}

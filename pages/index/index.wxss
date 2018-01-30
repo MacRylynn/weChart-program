@@ -1,0 +1,38 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.password {
+  margin-top: 200px;
+}
+
+.password input{
+  padding-left: 10rpx;
+  height: 40px;
+  margin-top: 10px;
+  border-bottom: 1px solid 	#A9A9A9;
+}
+
+#submitButton{
+  background-color: 	#1E90FF;
+  color: white;
+}
+
+.btn-area{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

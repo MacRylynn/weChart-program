@@ -1,0 +1,33 @@
+<!--pages/finished/finished.wxml-->
+<view class='title'>  
+  <view class='left'>
+    <image src='/images/pagesTop/已完成工单.png' ></image>
+  </view>
+</view>
+<block wx:for="{{order}}" wx:for-item="order" wx:for-index="index">
+  <view class='container'>
+    <form bindsubmit="formSubmit" >
+      <view class='section'>
+
+        <view class='section-title'>
+          <image class='icon' src='/images/icon/repair/num.png'></image>
+          <text class='textStyle' >工单单号</text>
+          <text class='orderNumber'>{{order.orderNumber}}</text>
+        </view>
+        <view class='section-title'>
+          <image class='icon' src='/images/icon/repair/submitTime.png'></image>
+          <text class='textStyle'>工单时间</text>
+          <text class='orderTime'>{{order.orderTime}}</text>
+        </view>
+        <view class='section-title'>
+          <image class='icon' src='/images/icon/repair/hospital.png'></image>
+          <text class='textStyle'>客户名称</text>
+            <text class='hospital'>{{order.hospital}}</text>
+          
+        </view>
+        <button class='detail' bindtap='clickDetail' data-id='{{index}}'>详情</button>
+    </view>
+    </form>
+   </view>
+  </block>
+
